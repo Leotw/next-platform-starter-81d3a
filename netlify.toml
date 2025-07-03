@@ -6,3 +6,9 @@
   from = "/func/query"
   to = "/.netlify/functions/query"
   status = 200
+
+
+[[redirects]]
+  from = "/func/query_2"
+  to = "/.netlify/functions/query_2"
+  status = 200
