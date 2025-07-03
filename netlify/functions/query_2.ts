@@ -1,5 +1,5 @@
 import { runCommands } from '../../app/api/util';
-export async function POST(request) {
+export default async (request, context) => {
     try {
         const body = await request.json();
         const commandRet = await runCommands(body.command);
